@@ -2,7 +2,7 @@
 
 ### Use:
 
-🚧 Cloning:<br/>
+Cloning:<br/>
 ```
 git clone https://github.com/alezamarion/flask_static_site.git && cd flask_static_site
 install Flask: https://flask.palletsprojects.com/en/2.0.x/installation/
@@ -14,7 +14,4 @@ open it in your browser
 ### Subject
 
 Just an example of how you can make an static site with Flask.
-
-See the site in action here.
-
 

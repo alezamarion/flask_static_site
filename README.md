@@ -1,28 +1,17 @@
 ### flask_static_site
 
-## Use:
+### Use:
 
 🚧 Cloning:<br/>
 ```
-git clone https://github.com/alezamarion/42-minitalk.git && cd 42-minitalk
-make
+git clone https://github.com/alezamarion/flask_static_site.git && cd flask_static_site
+intall Flask: https://flask.palletsprojects.com/en/2.0.x/installation/
+flask run
+you'll get an http address in your command line
+open it in your browser
 ```
 
-🚧 Compiling:<br/>
-```
-First you launch server:
-$ ./server
-Server will print its PID and wait
-
-So you use the client to send string or unicode characters to the server
-$ ./client PID_SERVER STRING
-```
-
-## Subject
-
-The purpose of this project is to code a small data exchange program using UNIX signals. <br>
-
-
+### Subject
 
 Just an example of how you can make an static site with Flask.
 

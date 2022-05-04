@@ -1,42 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        <title>minimalism - zen</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-        <link href="static/styles.css" rel="stylesheet">
-    </head>
 
-    <body>
-        <header><br>
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index" style="color: black;">mnmlsm</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="more" style="color: black;">more</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="zen" style="color: black;">zen</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="not_mnmlst_list" style="color: black;">not mnmlst list</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="mscncptns" style="color: black;">mscncptns</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="breathe" style="color: black;">breathe</a>
-                </li>
-            </ul>
-        </header>
+{% extends 'base.html' %}
+
+{% block main %}
+
         <div class="page1">
             <br><br><br>
             <h2 style="text-align: center;">25 reasons you might be a minimalist</h2>
             <p style="text-align: center; font-size: 14px;"><em>from</em>
             <a href="https://bemorewithless.com/25-reasons-you-might-be-a-minimalist/"> bemorewithless</a></p>
-            <div class="poem0"><br>
+            <div class="poem0" style="text-align: center;"><br>
                 <p>1. If you have an empty attic or storage shed, you might be a minimalist.</p>
                 <p>2. If you are debt-free or paying off debt with gazelle intensity, you might be a minimalist.</p>
                 <p>3. If walking through Target or Walmart makes you really uncomfortable, you might be a minimalist.</p>
@@ -75,7 +47,7 @@
                     You might be a minimalist, or maybe you’re just happier living with less.
                 <p>
                 <p>Then again, what’s the difference?</p><br>
-                <p class="poem1"><em>
+                <p class="poem1" style="text-align: center;"><em>
                     Now, check this not minimalist word: <a href="/mscncptns">misconceptions</a>
                     about minimalism.
                 </em></p>
@@ -100,8 +72,5 @@
         <script>
         document.getElementById("msg").innerHTML = Date();
         </script>
-    </body>
 
-</html>
-
-
+{% endblock %}

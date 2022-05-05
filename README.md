@@ -2,7 +2,7 @@
 
 ### Use:
 
-Cloning:<br/>
+### Install:<br/>
 ```
 git clone https://github.com/alezamarion/flask_static_site.git && cd flask_static_site
 install Flask: https://flask.palletsprojects.com/en/2.0.x/installation/

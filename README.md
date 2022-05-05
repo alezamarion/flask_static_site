@@ -1,6 +1,5 @@
 ## flask_static_site
 
-### Use:
 
 ### Install:<br/>
 ```

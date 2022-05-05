@@ -13,5 +13,6 @@ open it in your browser
 
 ### Subject
 
-Just an example of how you can make an static site with Flask.
+Just an example of how ease it is to make an static site using Flask.
 
+See the site in action here (soon :D)

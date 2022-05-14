@@ -14,4 +14,4 @@ open it in your browser
 
 Just an example of how ease it is to make an static site using Flask.
 
-See the site in action here (soon :D)
+<!-- See the site in action here (soon :D) -->
